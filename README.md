@@ -3,6 +3,8 @@
 ## Project Overview
 This project implements a linked list system for managing characters in a role-playing adventure game. Each node in the list represents a player character, storing their attributes and an inventory of items they carry. The program allows for efficient management of characters and their possessions, enabling future expansions for more complex game mechanics.
 
+--- 
+
 ## Features
 
 ### Character List Management
@@ -29,6 +31,8 @@ This project implements a linked list system for managing characters in a role-p
   - Type: Integer representing the category (e.g., treasure, weapon).
   - Weight: Double indicating weight in pounds.
   - Value: Double indicating value in gold pieces.
+
+---
 
 ## Implementation Details
 - **Classes and Files**:
