@@ -5,6 +5,15 @@ This project implements a linked list system for managing characters in a role-p
 
 --- 
 
+## 📂 Implementation Files
+- [Character.h](https://github.com/EricDelgado993/Adventure-Game-Character-List-Manager/blob/main/Assignment2_DnD/Assignment2_DnD/Character.h)
+- [Character.cpp](https://github.com/EricDelgado993/Adventure-Game-Character-List-Manager/blob/main/Assignment2_DnD/Assignment2_DnD/Character.cpp)
+- [CharacterList.h](https://github.com/EricDelgado993/Adventure-Game-Character-List-Manager/blob/main/Assignment2_DnD/Assignment2_DnD/CharacterList.h)
+- [CharacterList.cpp](https://github.com/EricDelgado993/Adventure-Game-Character-List-Manager/blob/main/Assignment2_DnD/Assignment2_DnD/CharacterList.cpp)
+- [TestDriver.cpp](https://github.com/EricDelgado993/Adventure-Game-Character-List-Manager/blob/main/Assignment2_DnD/Assignment2_DnD/TestDriver.cpp)
+
+---
+
 ## Features
 
 ### Character List Management
