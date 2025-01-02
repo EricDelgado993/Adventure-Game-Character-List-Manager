@@ -57,6 +57,8 @@ This project implements a linked list system for managing characters in a role-p
 ---
 
 ## TestDriver Output
+<details>
+
 ```
 Testing addCharacter:
 Added Alice
@@ -310,3 +312,5 @@ ITEMS
 [08] --- [Type: 0] [Value: 0] [Weight: 0]
 [09] --- [Type: 0] [Value: 0] [Weight: 0]
 [10] --- [Type: 0] [Value: 0] [Weight: 0]
+```
+</details>
