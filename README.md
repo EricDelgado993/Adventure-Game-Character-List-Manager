@@ -57,8 +57,8 @@ This project implements a linked list system for managing characters in a role-p
 ---
 
 ## TestDriver Output
-```plaintext
-<div style="max-height: 200px; overflow-y: auto; border: 1px solid #ccc; padding: 10px;">
+<details>
+<pre style="max-height: 200px; overflow-y: auto; border: 1px solid #ccc; padding: 10px;">
 Testing addCharacter:
 Added Alice
 Added Bob
@@ -311,4 +311,5 @@ ITEMS
 [08] --- [Type: 0] [Value: 0] [Weight: 0]
 [09] --- [Type: 0] [Value: 0] [Weight: 0]
 [10] --- [Type: 0] [Value: 0] [Weight: 0]
-</div>
+</pre>
+</details>
