@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ericd\\OneDrive\\Desktop\\Porfolio\\Adventure-Game-Character-List-Manager\\Assignment2_DnD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{546DF375-6361-4F84-9FE4-9E42E5DF170F}|Assignment2_DnD\\Assignment2_DnD.vcxproj|C:\\Users\\ericd\\OneDrive\\Desktop\\Porfolio\\Adventure-Game-Character-List-Manager\\Assignment2_DnD\\Assignment2_DnD\\TestDriver.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{546DF375-6361-4F84-9FE4-9E42E5DF170F}|Assignment2_DnD\\Assignment2_DnD.vcxproj|solutionrelative:Assignment2_DnD\\TestDriver.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{546DF375-6361-4F84-9FE4-9E42E5DF170F}|Assignment2_DnD\\Assignment2_DnD.vcxproj|C:\\Users\\ericd\\OneDrive\\Desktop\\Porfolio\\Adventure-Game-Character-List-Manager\\Assignment2_DnD\\Assignment2_DnD\\CharacterList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{546DF375-6361-4F84-9FE4-9E42E5DF170F}|Assignment2_DnD\\Assignment2_DnD.vcxproj|solutionrelative:Assignment2_DnD\\CharacterList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{546DF375-6361-4F84-9FE4-9E42E5DF170F}|Assignment2_DnD\\Assignment2_DnD.vcxproj|C:\\Users\\ericd\\OneDrive\\Desktop\\Porfolio\\Adventure-Game-Character-List-Manager\\Assignment2_DnD\\Assignment2_DnD\\Character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{546DF375-6361-4F84-9FE4-9E42E5DF170F}|Assignment2_DnD\\Assignment2_DnD.vcxproj|solutionrelative:Assignment2_DnD\\Character.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 290,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TestDriver.cpp",
+              "DocumentMoniker": "C:\\Users\\ericd\\OneDrive\\Desktop\\Porfolio\\Adventure-Game-Character-List-Manager\\Assignment2_DnD\\Assignment2_DnD\\TestDriver.cpp",
+              "RelativeDocumentMoniker": "Assignment2_DnD\\TestDriver.cpp",
+              "ToolTip": "C:\\Users\\ericd\\OneDrive\\Desktop\\Porfolio\\Adventure-Game-Character-List-Manager\\Assignment2_DnD\\Assignment2_DnD\\TestDriver.cpp",
+              "RelativeToolTip": "Assignment2_DnD\\TestDriver.cpp",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-02T01:12:02.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CharacterList.cpp",
+              "DocumentMoniker": "C:\\Users\\ericd\\OneDrive\\Desktop\\Porfolio\\Adventure-Game-Character-List-Manager\\Assignment2_DnD\\Assignment2_DnD\\CharacterList.cpp",
+              "RelativeDocumentMoniker": "Assignment2_DnD\\CharacterList.cpp",
+              "ToolTip": "C:\\Users\\ericd\\OneDrive\\Desktop\\Porfolio\\Adventure-Game-Character-List-Manager\\Assignment2_DnD\\Assignment2_DnD\\CharacterList.cpp",
+              "RelativeToolTip": "Assignment2_DnD\\CharacterList.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-02T01:12:00.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Character.cpp",
+              "DocumentMoniker": "C:\\Users\\ericd\\OneDrive\\Desktop\\Porfolio\\Adventure-Game-Character-List-Manager\\Assignment2_DnD\\Assignment2_DnD\\Character.cpp",
+              "RelativeDocumentMoniker": "Assignment2_DnD\\Character.cpp",
+              "ToolTip": "C:\\Users\\ericd\\OneDrive\\Desktop\\Porfolio\\Adventure-Game-Character-List-Manager\\Assignment2_DnD\\Assignment2_DnD\\Character.cpp",
+              "RelativeToolTip": "Assignment2_DnD\\Character.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-02T01:11:15.266Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

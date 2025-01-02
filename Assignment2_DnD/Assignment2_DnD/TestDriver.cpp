@@ -6,87 +6,6 @@
 // Programming Assignment 2: Linked lists
 //=====================================================
 
-#include <iostream>
-#include "CharacterList.h"
-
-using namespace std;
-
-int main()
-{
-    CharacterList* myList = new CharacterList();
-
-    Character* myChar1 = new Character();
-    Character* myChar2 = new Character();
-    Character* myChar3 = new Character();
-    Character* myChar4 = new Character();
-    Character* myChar5 = new Character();
-    Character* myChar6 = new Character();
-    
-    Item* axe = new Item();
-    strcpy_s(axe->m_sItemName, sizeof(axe->m_sItemName), "Axe");
-
-    char axeLabel[65] = "Axe";
-
-    char name1[64];
-    strcpy_s(name1, sizeof(name1), "B");
-
-    char name2[64];
-    strcpy_s(name2, sizeof(name2), "D");
-
-    char name3[64];
-    strcpy_s(name3, sizeof(name3), "F");
-
-    char name4[64];
-    strcpy_s(name4, sizeof(name4), "C");
-
-    char name5[64];
-    strcpy_s(name5, sizeof(name5), "E");
-
-    char name6[64];
-    strcpy_s(name6, sizeof(name6), "A");
-
-
-    myChar1->setName(name1);
-    myChar2->setName(name2);
-    myChar3->setName(name3);
-    myChar4->setName(name4);
-    myChar5->setName(name5);
-    myChar6->setName(name6);
-
-    myList->getItem(myChar1->getName(), axeLabel);
-    myList->dropItem(myChar1->getName(), axeLabel);
-
-    myList->addCharacter(myChar1);
-    myList->addCharacter(myChar2);
-    myList->addCharacter(myChar3);
-    myList->addCharacter(myChar4);
-    myList->addCharacter(myChar5);
-    myList->addCharacter(myChar6);
-
-    //myList->deleteCharacter(name1);
-    //myList->deleteCharacter(name1);
-    //myList->deleteCharacter(name2);
-    //myList->deleteCharacter(name4);
-    //myList->deleteCharacter(name6);
-    // myList->deleteCharacter(name5);
-    //myList->deleteCharacter(name3);
-    //myList->deleteCharacter(name5);
-
-    myList->getItem(myChar1->getName(), axeLabel);
-
-    myList->addItem(myChar1->getName(), axe);
-
-    myList->getItem(myChar1->getName(), axeLabel);
-
-    myList->dropItem(myChar1->getName(), axeLabel);
-
-    myList->dropItem(myChar1->getName(), axeLabel);
-
-    myList->printCharacters();
-}
-
-
-/*
 #include "CharacterList.h"
 #include "Character.h"
 #include <iostream>
@@ -163,17 +82,6 @@ void testCharacterList()
 
     charList.printCharacters();
 
-    // Clean up remaining characters
-    std::cout << "\nCleaning up remaining characters:" << std::endl;
-    while (charList.hasCharacters()) // Replace direct access with a public method
-    {
-        Character* character = charList.deleteFirstCharacter(); // Use a proper accessor method
-        if (character)
-        {
-            std::cout << "Deleted " << character->getName() << std::endl;
-            delete character;
-        }
-    }
 }
 
 int main()
@@ -181,4 +89,3 @@ int main()
     testCharacterList();
     return 0;
 }
-*/
