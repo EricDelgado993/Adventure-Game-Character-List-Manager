@@ -53,3 +53,260 @@ This project implements a linked list system for managing characters in a role-p
   - `CharacterList.h` and `CharacterList.cpp`: Linked list implementation.
   - `Character.h` and `Character.cpp`: Character attributes and inventory functions.
   - `Item.h`: Item data structure.
+
+---
+
+## TestDriver Output
+```plaintext
+Testing addCharacter:
+Added Alice
+Added Bob
+Added Charlie
+======================================
+CHARACTER INFORMATION
+======================================
+Name:           Alice
+Class:          1
+Alignment:      1
+Hit Points:     100
+Strength:       10
+Dexterity:      12
+Constitution:   8
+Intelligence:   14
+Wisdom:         10
+Charisma:       16
+--------------------------------------
+ITEMS
+--------------------------------------
+[01] --- [Type: 0] [Value: 0] [Weight: 0]
+[02] --- [Type: 0] [Value: 0] [Weight: 0]
+[03] --- [Type: 0] [Value: 0] [Weight: 0]
+[04] --- [Type: 0] [Value: 0] [Weight: 0]
+[05] --- [Type: 0] [Value: 0] [Weight: 0]
+[06] --- [Type: 0] [Value: 0] [Weight: 0]
+[07] --- [Type: 0] [Value: 0] [Weight: 0]
+[08] --- [Type: 0] [Value: 0] [Weight: 0]
+[09] --- [Type: 0] [Value: 0] [Weight: 0]
+[10] --- [Type: 0] [Value: 0] [Weight: 0]
+======================================
+CHARACTER INFORMATION
+======================================
+Name:           Bob
+Class:          2
+Alignment:      2
+Hit Points:     120
+Strength:       12
+Dexterity:      15
+Constitution:   9
+Intelligence:   13
+Wisdom:         11
+Charisma:       14
+--------------------------------------
+ITEMS
+--------------------------------------
+[01] --- [Type: 0] [Value: 0] [Weight: 0]
+[02] --- [Type: 0] [Value: 0] [Weight: 0]
+[03] --- [Type: 0] [Value: 0] [Weight: 0]
+[04] --- [Type: 0] [Value: 0] [Weight: 0]
+[05] --- [Type: 0] [Value: 0] [Weight: 0]
+[06] --- [Type: 0] [Value: 0] [Weight: 0]
+[07] --- [Type: 0] [Value: 0] [Weight: 0]
+[08] --- [Type: 0] [Value: 0] [Weight: 0]
+[09] --- [Type: 0] [Value: 0] [Weight: 0]
+[10] --- [Type: 0] [Value: 0] [Weight: 0]
+======================================
+CHARACTER INFORMATION
+======================================
+Name:           Charlie
+Class:          3
+Alignment:      1
+Hit Points:     110
+Strength:       11
+Dexterity:      13
+Constitution:   10
+Intelligence:   12
+Wisdom:         14
+Charisma:       15
+--------------------------------------
+ITEMS
+--------------------------------------
+[01] --- [Type: 0] [Value: 0] [Weight: 0]
+[02] --- [Type: 0] [Value: 0] [Weight: 0]
+[03] --- [Type: 0] [Value: 0] [Weight: 0]
+[04] --- [Type: 0] [Value: 0] [Weight: 0]
+[05] --- [Type: 0] [Value: 0] [Weight: 0]
+[06] --- [Type: 0] [Value: 0] [Weight: 0]
+[07] --- [Type: 0] [Value: 0] [Weight: 0]
+[08] --- [Type: 0] [Value: 0] [Weight: 0]
+[09] --- [Type: 0] [Value: 0] [Weight: 0]
+[10] --- [Type: 0] [Value: 0] [Weight: 0]
+
+Testing deleteCharacter:
+Deleted Bob
+======================================
+CHARACTER INFORMATION
+======================================
+Name:           Alice
+Class:          1
+Alignment:      1
+Hit Points:     100
+Strength:       10
+Dexterity:      12
+Constitution:   8
+Intelligence:   14
+Wisdom:         10
+Charisma:       16
+--------------------------------------
+ITEMS
+--------------------------------------
+[01] --- [Type: 0] [Value: 0] [Weight: 0]
+[02] --- [Type: 0] [Value: 0] [Weight: 0]
+[03] --- [Type: 0] [Value: 0] [Weight: 0]
+[04] --- [Type: 0] [Value: 0] [Weight: 0]
+[05] --- [Type: 0] [Value: 0] [Weight: 0]
+[06] --- [Type: 0] [Value: 0] [Weight: 0]
+[07] --- [Type: 0] [Value: 0] [Weight: 0]
+[08] --- [Type: 0] [Value: 0] [Weight: 0]
+[09] --- [Type: 0] [Value: 0] [Weight: 0]
+[10] --- [Type: 0] [Value: 0] [Weight: 0]
+======================================
+CHARACTER INFORMATION
+======================================
+Name:           Charlie
+Class:          3
+Alignment:      1
+Hit Points:     110
+Strength:       11
+Dexterity:      13
+Constitution:   10
+Intelligence:   12
+Wisdom:         14
+Charisma:       15
+--------------------------------------
+ITEMS
+--------------------------------------
+[01] --- [Type: 0] [Value: 0] [Weight: 0]
+[02] --- [Type: 0] [Value: 0] [Weight: 0]
+[03] --- [Type: 0] [Value: 0] [Weight: 0]
+[04] --- [Type: 0] [Value: 0] [Weight: 0]
+[05] --- [Type: 0] [Value: 0] [Weight: 0]
+[06] --- [Type: 0] [Value: 0] [Weight: 0]
+[07] --- [Type: 0] [Value: 0] [Weight: 0]
+[08] --- [Type: 0] [Value: 0] [Weight: 0]
+[09] --- [Type: 0] [Value: 0] [Weight: 0]
+[10] --- [Type: 0] [Value: 0] [Weight: 0]
+
+Testing addItem:
+Sword added to Alice
+Shield added to Charlie
+Potion added to NonExistent
+======================================
+CHARACTER INFORMATION
+======================================
+Name:           Alice
+Class:          1
+Alignment:      1
+Hit Points:     100
+Strength:       10
+Dexterity:      12
+Constitution:   8
+Intelligence:   14
+Wisdom:         10
+Charisma:       16
+--------------------------------------
+ITEMS
+--------------------------------------
+[01] Sword [Type: 1] [Value: 150] [Weight: 5]
+[02] --- [Type: 0] [Value: 0] [Weight: 0]
+[03] --- [Type: 0] [Value: 0] [Weight: 0]
+[04] --- [Type: 0] [Value: 0] [Weight: 0]
+[05] --- [Type: 0] [Value: 0] [Weight: 0]
+[06] --- [Type: 0] [Value: 0] [Weight: 0]
+[07] --- [Type: 0] [Value: 0] [Weight: 0]
+[08] --- [Type: 0] [Value: 0] [Weight: 0]
+[09] --- [Type: 0] [Value: 0] [Weight: 0]
+[10] --- [Type: 0] [Value: 0] [Weight: 0]
+======================================
+CHARACTER INFORMATION
+======================================
+Name:           Charlie
+Class:          3
+Alignment:      1
+Hit Points:     110
+Strength:       11
+Dexterity:      13
+Constitution:   10
+Intelligence:   12
+Wisdom:         14
+Charisma:       15
+--------------------------------------
+ITEMS
+--------------------------------------
+[01] Shield [Type: 2] [Value: 100] [Weight: 8]
+[02] Potion [Type: 3] [Value: 50] [Weight: 1]
+[03] --- [Type: 0] [Value: 0] [Weight: 0]
+[04] --- [Type: 0] [Value: 0] [Weight: 0]
+[05] --- [Type: 0] [Value: 0] [Weight: 0]
+[06] --- [Type: 0] [Value: 0] [Weight: 0]
+[07] --- [Type: 0] [Value: 0] [Weight: 0]
+[08] --- [Type: 0] [Value: 0] [Weight: 0]
+[09] --- [Type: 0] [Value: 0] [Weight: 0]
+[10] --- [Type: 0] [Value: 0] [Weight: 0]
+
+Testing getItem:
+Retrieved item: Sword
+
+Testing dropItem:
+Item not found in Alice's inventory
+======================================
+CHARACTER INFORMATION
+======================================
+Name:           Alice
+Class:          1
+Alignment:      1
+Hit Points:     100
+Strength:       10
+Dexterity:      12
+Constitution:   8
+Intelligence:   14
+Wisdom:         10
+Charisma:       16
+--------------------------------------
+ITEMS
+--------------------------------------
+[01] --- [Type: 0] [Value: 0] [Weight: 0]
+[02] --- [Type: 0] [Value: 0] [Weight: 0]
+[03] --- [Type: 0] [Value: 0] [Weight: 0]
+[04] --- [Type: 0] [Value: 0] [Weight: 0]
+[05] --- [Type: 0] [Value: 0] [Weight: 0]
+[06] --- [Type: 0] [Value: 0] [Weight: 0]
+[07] --- [Type: 0] [Value: 0] [Weight: 0]
+[08] --- [Type: 0] [Value: 0] [Weight: 0]
+[09] --- [Type: 0] [Value: 0] [Weight: 0]
+[10] --- [Type: 0] [Value: 0] [Weight: 0]
+======================================
+CHARACTER INFORMATION
+======================================
+Name:           Charlie
+Class:          3
+Alignment:      1
+Hit Points:     110
+Strength:       11
+Dexterity:      13
+Constitution:   10
+Intelligence:   12
+Wisdom:         14
+Charisma:       15
+--------------------------------------
+ITEMS
+--------------------------------------
+[01] Shield [Type: 2] [Value: 100] [Weight: 8]
+[02] Potion [Type: 3] [Value: 50] [Weight: 1]
+[03] --- [Type: 0] [Value: 0] [Weight: 0]
+[04] --- [Type: 0] [Value: 0] [Weight: 0]
+[05] --- [Type: 0] [Value: 0] [Weight: 0]
+[06] --- [Type: 0] [Value: 0] [Weight: 0]
+[07] --- [Type: 0] [Value: 0] [Weight: 0]
+[08] --- [Type: 0] [Value: 0] [Weight: 0]
+[09] --- [Type: 0] [Value: 0] [Weight: 0]
+[10] --- [Type: 0] [Value: 0] [Weight: 0]
